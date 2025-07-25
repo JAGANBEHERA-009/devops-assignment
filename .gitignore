@@ -1,0 +1,18 @@
+# === Terraform ===
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+*.tfplan
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# === Optional Files ===
+*.log
+*.bak
+.DS_Store
+*.swp
