@@ -16,3 +16,4 @@ override.tf.json
 *.bak
 .DS_Store
 *.swp
+aws/*.csv
