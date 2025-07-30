@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    image: nginx
+    ports:
+      - "8080:80"
+
+  alpine:
+    image: alpine
+    command: ["sh", "-c", "while true; do echo 'Hello from Alpine'; sleep 5; done"]
